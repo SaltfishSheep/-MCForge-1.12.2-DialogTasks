@@ -1,0 +1,13 @@
+usage.command.resetChainRun=§c/resetChainRun (对话ID)
+usage.command.runChain=§c/runChain (对话ID)
+usage.command.startTask=§c/startTask (任务ID)
+usage.command.copyItemNBT=§c/copyItemNBT 这将会把整个物品作为NBT复制到你的剪切板上.
+
+command.message.noDialog=§c<DialogTasks> 警告!不存在该对话！
+command.message.noTask=§c<DialogTasks> 警告!不存在该任务！
+command.message.dialogCantRun=§c<DialogTasks> 你已经开始了这个任务！
+command.message.taskCantRun=§c<DialogTasks> 你不满足运行该任务的条件！
+command.message.reload=成功重载对话和任务。
+command.message.mustBySender=这个指令必须由发送者本人执行
+command.message.mustByPlayer=这个指令必须由玩家执行
+command.message.alreadyCopyItemNBT=已经将这个物品的NBT形式作为文本复制到你的剪切板上

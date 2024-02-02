@@ -1,0 +1,13 @@
+usage.command.resetChainRun=§c/resetChainRun (dialogID)
+usage.command.runChain=§c/runChain (dialogID)
+usage.command.startTask=§c/startTask (taskID)
+usage.command.copyItemNBT=§c/copyItemNBT it will copy the item as nbt and recover your clipboard.
+
+command.message.noDialog=§c<DialogTasks> Warning!There no such dialog!
+command.message.noTask=§c<DialogTasks> Warning!There no such task!
+command.message.dialogCantRun=§c<DialogTasks> You do not meet the requirements of running the dialog!
+command.message.taskCantRun=§c<DialogTasks> You have already started the task!
+command.message.reload=Reload dialogs and tasks successful.
+command.message.mustBySender=The command must be executed by sender himself.
+command.message.mustByPlayer=The command must be executed by player.
+command.message.alreadyCopyItemNBT=Already copy the item's nbt as text to you clipboard

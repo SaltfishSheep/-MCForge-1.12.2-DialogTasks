@@ -96,9 +96,9 @@ ps:除了有格式要求的文本以外，请尽量不要写空格、缩进，�
  removeItem | itemName(S),count(I)[1] | 从玩家背包中扣除count数量的名为itemName的物品，无论物品是否足够都会扣除
  executeCommand | command(S) | 作为后台执行指令，支持占位符%PLAYER%表示进行对话的玩家名称，支持变量占位符
  startTask | taskID(S) | 开始ID为taskID的任务
- addVar | var(S),value(D) | 给变量var增加value
- setVar | var(S),value(D) | 给变量var设置为value
- assignVar | var(S),value(S),max(D)[2147483647],min(D)[-2147483648] | 计算后给变量赋值，支持四则运算与小括号，变量占位符，详见下文占位符
+ addVar | var(S),value(D),isGlobal(S)[false] | 给变量var增加value
+ setVar | var(S),value(D),isGlobal(S)[false] | 给变量var设置为value
+ assignVar | var(S),value(S),max(D)[2147483647],min(D)[-2147483648],isGlobal(S)[false] | 计算后给变量赋值，支持四则运算与小括号，变量占位符，详见下文占位符
  等你建议··· | ··· | ···
 
 #### 需求
@@ -112,7 +112,7 @@ ps:除了有格式要求的文本以外，请尽量不要写空格、缩进，�
  taskStartint | taskID(S) | 只有当指定任务正在进行时时才满足需求
  hasItem | itemName(S),count(I)[1] | 背包内拥有至少count个名为itemName的物品
  heldItem | itemName(S),count(I)[1] | 主手持有至少count个名为itemName的物品
- varInRange | var(S),max(D)[2147483647],min(D)[-2147483648] | 变量var在min到max之间
+ varInRange | var(S),max(D)[2147483647],min(D)[-2147483648],isGlobal(S)[false] | 变量var在min到max之间
  等你建议··· | ··· | ···
 
 #### CustomNPCs任务相关
